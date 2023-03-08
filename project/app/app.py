@@ -6,8 +6,12 @@ from functions import plot_regression
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
-app.layout = html.Div(
-    [
+app.layout =  html.Div(children=[
+        html.Div([
+            html.H1(children='Hello! Welcome to foodtech revolution :)',
+                    style={"color": "blue", "marginLeft": "20px"},
+                    )
+        ]),
         html.Div(
             [
                 dcc.Graph(id="regression_plot"),
