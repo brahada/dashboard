@@ -79,7 +79,7 @@ Google Cloud Storage ([GCS](https://cloud.google.com/storage/pricing#europe)) co
 By following these best practices, we can ensure the quality, reliability, and security of the app in production.
 
 ### Run locally
-To run the image locally, cd into the docker-dash-example folder and:
+To run the image locally, cd into the dashboard folder and:
 ```
 docker build -t dashboard project/.
 ```
