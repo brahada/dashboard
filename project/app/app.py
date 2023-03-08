@@ -8,9 +8,6 @@ server = app.server
 
 app.layout = html.Div(
     [
-        html.Div(["Join the food revolution"])
-    ],
-    [
         html.Div(
             [
                 dcc.Graph(id="regression_plot"),
