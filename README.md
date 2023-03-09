@@ -75,7 +75,9 @@ Google Cloud Storage ([GCS](https://cloud.google.com/storage/pricing#europe)) co
 - **End to end testing**: We could write end to end tests (not just unit tests) using dash.testing, cypress and with web driver etc
 - Using **multi-step** building can speed up deployment.
 - The docker image can be made **smaller** with the right tweaks, meaning faster building and deployment (Alpine base image, skip pip cache etc.).
-
+- Add **terraform** for better infrastructure automation
+- Add **document generation** in the pipeline through sphinx or any similar library
+- Run **tests** on **all branches** when any changes are made (like gitlab)
 By following these best practices, we can ensure the quality, reliability, and security of the app in production.
 
 ### Run locally
